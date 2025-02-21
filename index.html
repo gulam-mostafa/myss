@@ -1,44 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document </title>
-    <link rel="stylesheet" href="styles/style.css">
-   
-</head>
-<body>
-    <img src="styles/barcode.jpg" alt="">
-    <h1>35523  hi this is0122 csss</h1>
-    <h2>ok nice to mite</h2>
-    <p>ok 53thijklme yo </p>
-    <ul>
-        <li style="color: rgb(243, 149, 8); background: color(srgb rgb(125, 28, 182) green blue);">
-            ok
-        </li>
-        <li style="background-color: blueviolet; ">
-            ok
-        </li>
-        <li>
-            ok
-        </li>
-    </ul>
-    <p id="idi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learing web Debeloper</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/87ffb478b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, distinctio. Minima fugiat, ad earum et odio qui facere molestias sapiente dolore ipsam! Illum animi voluptatibus voluptas ipsum et unde quibusdam?
-    </p>
-    <p class="thid">thid</p>
-    <p class="thid">oni</p>
-    <p class="test">niceh</p>
-    <p class="test">niceh</p>
-    <p class="test"><span class="thanks">thanks</span>  niceh</p>
-    <p class="test">nicgheh</p>
-    <p class="test">nicevbghh</p>
-    <form action="">
-        <input class="input" type="text">
-        <input class="input" type="password">
-    </form>
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-orange-100">
+<!-- navbar -->
+<div class="navbar bg-base-100 shadow-lg">
+  <div class="navbar-start">
+      <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>World</a></li>
+              <li><a>Politics</a></li>
+              <li><a>Sports</a></li>
+              <li><a>Entertainment</a></li>
+          </ul>
+      </div>
+      <a class="btn btn-ghost normal-case text-xl">NewsPortal</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>World</a></li>
+          <li><a>Politics</a></li>
+          <li><a>Sports</a></li>
+          <li><a>Entertainment</a></li>
+      </ul>
+  </div>
+  <div class="navbar-end">
+      <input type="text" placeholder="Search..." class="input input-bordered w-24 md:w-auto" />
+      <button class="btn btn-primary ml-2">Search</button>
+  </div>
+</div>
+
+<div class="flex items-center justify-center my-4">
+  <button class="btn btn-outline btn-primary">Button</button>
+</div>
+<!-- Open the modal using ID.showModal() method -->
+
+
+<div class="flex items-center justify-center">
+  <button class="btn" onclick="my_modal_5.showModal()">open modal</button>
+  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+</div>
+
+<!-- daisy ui  -->
+<img src="https://i.postimg.cc/mr4sc7hF/Usha1.png" alt="My Image">
+
+
+    <main class="bg-red-300">
+      <!-- ++++++++++++++++++++++++++ -->
+
+      <div class="flex justify-center items-center m-8 bg-gray-400">
+        <div
+          class="grid grid-cols-1 xs:grid-cols-1 lg:grid-cols-3 gap-4 justify-center items-center m-2"
+        >
+          <p
+            class="w-72 bg-gray-200 py-5 px-4 border border-4 border-blue-400 rounded-xl text-6xl text-center text-orange-500"
+          >
+            border test of tis section
+          </p>
+          <p
+          class="lg:col-span-2 lg:h-56 w-72 sm:w-72 md:w-72 lg:w-72 xl:w-[600px] text-lime-600 bg-blue-400 py-5 px-4 border border-4 border-blue-400 rounded-xl text-6xl text-center"
+        >
+          *col border test of tis section*
+        </p>
+          <p
+            class="w-72 bg-gray-200 py-5 px-4 border border-4 border-blue-400 rounded-xl text-6xl text-center text-orange-500"
+          >
+            border test of tis section
+          </p>
+         
+          <p
+            class="w-72 bg-gray-200 py-5 px-4 border border-4 border-blue-400 rounded-xl text-6xl text-center text-orange-500"
+          >
+            border test of tis section
+          </p>
+          <p
+            class="w-72 row-span- bg-gray-200 py-5 px-4 border border-4 border-blue-400 rounded-xl text-6xl text-center text-orange-500"
+          >
+            border test of tis section
+          </p>
+          <p
+            class="w-72 bg-gray-200 py-5 px-4 border border-4 border-blue-400 rounded-xl text-6xl text-center text-orange-500"
+          >
+            border test of tis section
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <footer class="footer p-10 bg-base-200 text-base-content mt-10">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-full">
+              <div>
+                  <span class="footer-title">Services</span> 
+                  <a class="link link-hover">Branding</a>
+                  <a class="link link-hover">Design</a>
+                  <a class="link link-hover">Marketing</a>
+                  <a class="link link-hover">Advertisement</a>
+              </div> 
+              <div>
+                  <span class="footer-title">Company</span> 
+                  <a class="link link-hover">About us</a>
+                  <a class="link link-hover">Contact</a>
+                  <a class="link link-hover">Jobs</a>
+                  <a class="link link-hover">Press kit</a>
+              </div> 
+              <div>
+                  <span class="footer-title">Legal</span> 
+                  <a class="link link-hover">Terms of use</a>
+                  <a class="link link-hover">Privacy policy</a>
+                  <a class="link link-hover">Cookie policy</a>
+              </div> 
+              <div>
+                  <span class="footer-title">Newsletter</span> 
+                  <div class="form-control w-80">
+                      <label class="label">
+                          <span class="label-text">Enter your email</span>
+                      </label> 
+                      <div class="relative">
+                          <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
+                          <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      
+      </div>
+    </main>
+  </body>
 </html>
-
-

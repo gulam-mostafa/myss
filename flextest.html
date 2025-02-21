@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .newsTest{
+            display: flex;
+            gap: 10px;
+        }
+        .item {
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+.item:nth-child(1) {
+  flex: 0 0 30%; /* প্রথম আইটেমের জন্য ৩০% প্রস্থ */
+}
+
+.item:nth-child(2) {
+  flex: 0 0 70%; /* দ্বিতীয় আইটেমের জন্য ৭০% প্রস্থ */
+}
+    </style>
+</head>
+<body>
+  <div class="newsTest">
+
+ <div class="item">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti voluptates itaque id mollitia ut, nesciunt blanditiis harum quibusdam, obcaecati veniam iure eaque, in distinctio eos. Suscipit et corporis nulla?</p>
+ </div>
+ <div class="item">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor aliquam eaque ipsa, provident numquam. Eius necessitatibus voluptatibus facilis laboriosam? Incidunt mollitia impedit doloremque veniam in corporis velit minus quia!</p>
+ </div>
+
+  </div>
+</body>
+</html>
