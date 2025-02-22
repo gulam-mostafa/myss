@@ -1,9 +1,16 @@
-let city = "dhaka";
-let town = "Dhaka";
-let capital = "gazipur Dhaka ";
-let capitalSplit = capital.split(" ")
-let cityLowerCae = city.slice(0, 3);
-console.log(capitalSplit);
-//let townCapital = town.toUpperCase();
-//let cpitalSpaceRemove = capital.trim().toLowerCase();
-//console.log(cityLowerCae, townCapital, cpitalSpaceRemove);
+let mobile ={
+    brand:'reame',
+    price: 2100,
+    color: 'black',
+    isClean: false
+}
+mobile.brand= 'realme-x2'
+// console.log(mobile);
+
+let keys =Object.keys(mobile);
+let valus = Object.values(mobile);
+// console.log(keys , valus);
+for( let prop in mobile){
+    console.log(prop);
+    console.log(mobile[prop]);
+}
