@@ -1,16 +1,8 @@
-let num = 2;
-// while(num < 5){
-//     console.log(num)
-//     num++
-// }
+let city = "dhaka";
+let town = "Dhaka";
+let capital= "gazipur Dhaka "
 
-for(let num = 0 ; num < 50 ; num++){
-if(num%2 !==0){
-    console.log(num);
-}
-}
-for(let num = 0 ; num <= 50 ; num++){
-    if(num%2 ===0){
-        console.log(num);
-    }
-    }
+let cityLowerCae = city.toLowerCase();
+let townCapital = town.toUpperCase();
+let cpitalSpaceRemove = capital.trim().toLowerCase();
+console.log(cityLowerCae, townCapital, cpitalSpaceRemove);
