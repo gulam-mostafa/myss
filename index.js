@@ -1,10 +1,15 @@
 let price = 45;
 
 
-squar(6)
+let kola = 20;
+let jam = 45;
+let am =31;
 
-function squar(number){
-console.log(number * number);
+
+
+function squar(number , jam){
+console.log(number * number  );
 
 }
 
+squar(kola, jam, am)
